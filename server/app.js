@@ -30,3 +30,8 @@ if (!module.parent) {
   console.log('Listening on', app.get('port'));
 }
 
+/*
+-app uses router to tell client to use controller to send information to the server
+-server uses model to tell database secrets
+
+*/
